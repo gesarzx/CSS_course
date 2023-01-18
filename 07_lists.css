@@ -1,0 +1,68 @@
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+/* добавление нижней границы строчек не через margin, a через padding */
+padding-bottom: 10px;
+}
+
+.table td:hover{
+    background: #eeefff;
+}
+
+/* специфично и для списков и для таблиц: */
+
+/* подсветка четной строчки: */
+
+/* .table tr:nth-child(even){
+    background: #eee;
+} */
+
+.table tr:nth-child(odd){
+    background: #eee;
+} 
+
+/* стилизация столбиков */
+.table td:nth-child(2), .table td:nth-child(4) {
+    background: #fffeee;
+}
+
+.navbar {
+    background: rgb(198, 163, 163);
+    /* padding: 10px 20px; */
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.navbar ul li:hover {
+    background: #ea6767;
+}
+
+/* псевдоселектор последнего элемента */
+.navbar ul li:last-child {
+    margin-right: 0;
+}

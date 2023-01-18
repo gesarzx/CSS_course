@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Course</title>
+
+<!-- 2 вариант: css через тэг style -->
+    <style>
+        body {
+            background: #ddd;
+        }
+    </style>
+
+<!--3q вариант css--через отдельный файл  -->
+<link rel="stylesheet" href="01_selectors.css">
+<link rel="stylesheet" href="02_fonts.css">
+<link rel="stylesheet" href="03_colors.css">
+<link rel="stylesheet" href="04_borders.css">
+<link rel="stylesheet" href="06_links and buttons.css">
+<link rel="stylesheet" href="07_lists.css">
+<link rel="stylesheet" href="08_display.css">
+<link rel="stylesheet" href="09_positions.css">
+<!-- следм за расположением каждого варианта в HTML -->
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul >
+            <li><a href="#">item 1</a></li>
+            <li><a href="#">item 2</a></li>
+            <li><a href="#">item 3</a></li>
+            <li><a href="#">item 4</a></li>
+            <li><a href="#">item 5</a></li>
+        </ul>
+    </nav>
+
+   <header  id="header" style="border:1px solid grey;">
+    <!-- 1 вариант: css код прямо в HTML -->
+
+    <h3> это очень крутой сайт</h3>
+   </header> 
+
+   <div class="card html">
+    <h2>HTML</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatibus laboriosam illo, magnam magni impedit eaque voluptatem repudiandae sint odit modi dicta, nemo distinctio cupiditate recusandae numquam consectetur ratione ad.</p>
+   </div>
+
+
+<div class="card">
+    <h2>Positions</h2>
+
+    <div class="playground">
+        <div class="pos-box"></div>
+    </div>
+</div>   
+
+
+
+<div class="card">
+    <H2> Display</H2>
+
+    <ul class="inline">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptas?
+    </div>
+    
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptas?
+    </div>
+
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptas?
+    </div>
+<img src="https://camo.githubusercontent.com/90be2bc4ce08caedd52dd55585eb1fc12c07fc7d87f4eceb4995cba746dea1f3/68747470733a2f2f69636f6e6170652e636f6d2f77702d636f6e74656e742f66696c65732f696d2f3335333232332f7376672f68746d6c352d776974686f75742d776f72646d61726b2d636f6c6f722e737667" alt="html" class="img">
+
+</div>
+
+   <div class="card css">
+    <h2>CSS</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatibus laboriosam illo, magnam magni impedit eaque voluptatem repudiandae sint odit modi dicta, nemo distinctio cupiditate recusandae numquam consectetur ratione ad.</p>
+   </div>
+
+   <div class="card">
+    <h2>Lists and Tables</h2>
+
+    <ul class="list">
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatibus</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatibus</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatibus</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatibus</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptatibus</li>
+     </ul> 
+
+     
+     <table class="table"> 
+        <!-- (tr>(td{$})*5)*6 -->
+     <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+     </tr>
+     <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+     </tr>
+     <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+     </tr>
+     <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+     </tr>
+     <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+     </tr>
+     <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+     </tr>
+    </table>
+
+   </div>
+
+   <div class="card">
+    <h2>Links and buttons</h2>
+    <p>
+        <a href="#" class="btn"> это очень важная ссылка</a>
+    </p>
+    <p>  
+        <button class="btn"> это кнопка</button>
+    </p>
+   </div>
+
+
+
+
+   <div class="card">
+    <h2>Colors</h2>
+
+    <h3 class="color-1"> Color 1</h3>
+    <h3 class="color-2"> Color 2</h3>
+    <h3 class="color-3"> Color 3</h3>
+    <h3 class="color-4"> Color 4</h3>
+    <h3 class="color-5"> Color 5</h3>
+   </div>
+
+   <br>
+
+   <div class="card">
+    <h2> Borders</h2>
+    <p class="border-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aut perspiciatis eveniet repudiandae inventore reiciendis, eligendi illum quod omnis blanditiis architecto adipisci molestiae expedita odio provident veritatis ut cumque ipsa.</p>
+    <p class="border-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aut perspiciatis eveniet repudiandae inventore reiciendis, eligendi illum quod omnis blanditiis architecto adipisci molestiae expedita odio provident veritatis ut cumque ipsa.</p>
+    <p class="border-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aut perspiciatis eveniet repudiandae inventore reiciendis, eligendi illum quod omnis blanditiis architecto adipisci molestiae expedita odio provident veritatis ut cumque ipsa.</p>
+   </div>
+
+   <input type="text">
+   <br>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+.border-1 {
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: red; */
+   border: 2px solid red;
+   border-radius: 5px;
+}
+
+/* bottom, top, right, left */
+.border-2 {
+    border-bottom: solid darkblue;
+    border-right: 6px solid green;
+
+    border-bottom-right-radius: 10px;
+  
+}
+
+.border-3 {
+    border-left: 6px solid red;
+    background: lightsalmon;
+    padding-left: 10px;
+    color: rgb(89, 23, 212);
+    
+    /* боковой отступ padding-left: 10px */
+
+    
+}

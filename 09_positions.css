@@ -1,0 +1,41 @@
+.playground {
+    position:relative;
+    border: 4px solid black;
+    height: 300px; 
+    padding: 20px;
+}
+
+.pos-box{
+    /* значение position по умолчанию static (родители учитывают позицию детей)  */
+    /* / position: static; */ 
+
+    position: absolute;
+    /* якобы идет с блоком, но не учитывает позицию родителя, зато работают left right top bottom  */
+top: 0;
+left: 200px;
+
+/* чтобы квардратик позиционировался отностительного родительского блока. нужно родительскому блоку назанчить position relative или absolute*/
+
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+/* фиксированная позиция на экране */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;  
+     /* z-index показывает на сколько слоев вверх смотрит любой элемент */
+}
+
+#header {
+    margin-top: 50px;
+}
+
+body{
+    background-image: url ("https://abrakadabra.fun/uploads/posts/2022-01/1641093872_1-abrakadabra-fun-p-nezhno-rozovoe-nebo-2.jpg");
+}
+/*  */

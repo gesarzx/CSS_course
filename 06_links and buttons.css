@@ -1,0 +1,52 @@
+a {
+    color: #333;
+    text-decoration: none;
+    /* transition: all .5s; */
+    /* анимация  */
+}
+
+/* псевдоселекторы */
+
+
+/* a:hover --- что происходит при наведениии на ссылку */
+a:hover {
+    color: orange;
+    /* font-size: 2rem */
+}
+
+/* цвет ссылки после посещения */
+/* a:visited {
+    color: red
+} */
+
+a:active {
+    color: blue;
+}
+
+.css:hover {
+color: red
+}
+
+.css:hover {
+    background: green
+    }
+
+  .btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    /* чтобы шрифт ссылки совпадал со шрифтом кнопки */
+
+  }  
+
+  .btn:hover {
+    opacity: 0.8;
+    color: orange;
+  }
+
+  /* ссылка и кнопка под одним классом и одинаково себя ведут */
+

@@ -1,0 +1,47 @@
+/* селектрор, который обращаеться ко всем элементам */
+
+
+/* селектор по tag name */
+body {
+    background: rgb(175, 160, 160);
+}
+
+/* селектор по class */
+.card {
+    padding: 10px;
+    background:  #fff;
+    margin-bottom: 10px; 
+    /* margin-bottom --нижний отступ */
+}
+
+/* обращение от родительского тега к дочернему (в примере к <P> обоих card) */
+.card p {
+    font-size: 20px;
+}
+
+.html {
+    background: #d84924;
+    color: rgb(255, 255, 255);
+}
+
+.css {
+    background: #2449d8;
+    color: aquamarine;
+
+}
+
+/* селекто по ID */
+#header {
+    background: #ddd;
+    padding: 10px;
+}
+
+/* множественные селекторы --одинаковые отступы для header и card */
+#header, .card {
+    margin-bottom: 10px;
+}
+/* через запятую можно перечислять множество селекторов например
+#header, .card, .html, .class {}
+и даже наследование типа: .html p,
+
+*/ 
